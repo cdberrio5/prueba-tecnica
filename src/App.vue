@@ -2,7 +2,6 @@
   <div id="app">
     <NavbarPage />
     <div class="main-content">
-      <!-- Contenido principal de tu aplicación -->
       <router-view />
     </div>
   </div>
