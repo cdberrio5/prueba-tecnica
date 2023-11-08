@@ -27,7 +27,7 @@
               <router-link to="/profile" class="text-slate-400 font-semibold leading-tight tracking-wide">Perfil</router-link>
             </div>
             <div class="h-[52px] text-lg p-4 flex-col justify-center items-center gap-2.5 inline-flex cursor-pointer" :class="{ active: isActive('/vacancies') }">
-              <a href="/vacancies" class="text-slate-400 font-semibold leading-tight tracking-wide">Vacantes</a>
+              <router-link href="/vacancies" class="text-slate-400 font-semibold leading-tight tracking-wide">Vacantes</router-link>
             </div>
             <div class="h-[52px] text-lg p-4 flex-col justify-center items-center gap-2.5 inline-flex cursor-pointer">
               <a href="#" class="text-slate-400 font-semibold leading-tight tracking-wide">Listas</a>
